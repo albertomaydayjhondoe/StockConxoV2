@@ -1,0 +1,8 @@
+
+{
+  "name": "StockPro Offline",
+  "description": "Una aplicación de gestión de inventario diseñada para funcionar sin conexión.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
