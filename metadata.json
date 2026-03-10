@@ -1,0 +1,10 @@
+{
+  "name": "StockPro Conxo",
+  "description": "Gestión de inventario profesional optimizada para Capacitor y uso offline nativo.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "permissions": [
+    "CAMERA"
+  ]
+}

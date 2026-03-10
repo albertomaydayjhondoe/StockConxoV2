@@ -1,0 +1,55 @@
+{
+  "name": "StockPro Profesional Offline",
+  "short_name": "StockPro",
+  "description": "Sistema de gestión de inventario y stock diseñado para funcionamiento 100% offline con IA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Vista del Dashboard principal de StockPro"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Gestión de Inventario Profesional"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Inventario",
+      "url": "/?view=inventory",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Nuevo Movimiento",
+      "url": "/?action=new",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"],
+  "prefer_related_applications": false
+}
